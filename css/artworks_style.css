@@ -1,0 +1,121 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+
+/* Default verzija za komp */
+#image-grid{
+  display: none;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-slides{
+  max-width: 35%;
+  margin-left: 32%;
+  margin-top: 12%;
+
+}
+.cell{
+
+  max-width: 90%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+
+}
+img{
+  max-height: 100%;
+
+}
+
+
+
+
+
+
+/*Za manje od 480px, dakle telefon */
+@media screen and (max-width: 480px) {
+  .container-slides{
+    display: none;
+  }
+
+
+  #image-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    --gap: 1vw;
+    gap: var(--gap);
+    --num-cols: 1;
+
+
+    width: 50%;
+    margin: 0;
+    margin-left: 20%;
+    margin-top: 30%;
+    margin-bottom: 50%;
+  }
+
+  img {
+    width: 120%;
+    object-fit: cover;
+    display:block;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .navbar {
+    margin-left: 0%;
+    padding-left: 2%;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #image-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  --gap: 1vw;
+  gap: var(--gap);
+  --num-cols: 1;
+  width: 30%;
+  margin-left: 33%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+} */
+
+
+
+
+
+/* Sve vece od 1400px, dakle kompovi */
+/* @media screen and (min-width: 1400px) {
+    animacija uvelicavanja
+    animacija pravi problem na mobilnom delu, pa sam je prebacio ovde
+    #image-grid img:hover {
+        transition: 0.7s;
+        transform: scale(1.2);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+} */

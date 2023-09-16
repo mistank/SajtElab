@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main_style.css" />
+    <link rel="stylesheet" href="css/contact_style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/highlight.css" />
+
+    <title>Contact | Otto Dix</title>
+    <script src="/Applications/XAMPP/xamppfiles/htdocs/ElabSajt/scripts/contact_script.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar sa leve strane-->
+    <div class="navbar">
+      <a id="artworks" href="artworks.html">selected artworks/</a> <br />
+      <a id="biography" href="biography.html">biography/</a> <br />
+      <a id="contact" href="contact.html">contact</a>
+    </div>
+
+    <!-- Forma za poruku, sredina -->
+    <div class="center">
+      <h1>contact us</h1>
+      <form action="connect.php" method="post"> 
+        <!-- Polje za ime -->
+        <div class="txt_field">
+          <input
+            id="customer"
+            type="text"
+            name="customer"
+            size="25"
+            placeholder="name"
+            maxlength="35"
+          />
+        </div>
+      
+        <!-- Polje za email -->
+        <div class="txt_field">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email"
+            size="25"
+          />
+        </div>
+      
+        <!-- Polje za samu poruku -->
+        <div class="txt_field">
+          <textarea
+            name="comment"
+            id="message"
+            cols="30"
+            placeholder="message"
+            rows="10"
+          ></textarea>
+        </div>
+      
+        <button type="submit" id="button">submit</button>
+      </form>
+      
+    </div>
+
+    <!-- Naslov sa desne strane -->
+    <a id="naslov" href="index.html">OTTO DIX</a>
+
+    <!-- Skripta koja daje funkcionalnost -->
+    
+  </body>
+</html>

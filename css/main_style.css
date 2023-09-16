@@ -1,0 +1,90 @@
+
+/* U nekom trenutku dodaj ovo i shodno tome nasteluj bordere i slicno */
+/* html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+} */
+
+
+
+body {
+  background-color: #eadac0;
+}
+
+.navbar {
+  position: fixed;
+  float: left;
+  bottom: 0;
+  width: 25%;
+  padding-left: 8%;
+  margin-bottom: 5%;
+
+  line-height: 1.3;
+  font-size: 2vw;
+  font-family: neue_montreal;
+}
+
+#naslov {
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  width: 25%;
+  font-size: 5.5vw;
+  font-family: octobre_demi;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+/* Da linkovi ne budu plavi */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #naslov {
+    background-color: #eadac0;
+
+    margin-top:0;
+    padding-top:8%;
+    padding-bottom: 4%;
+
+    z-index: 2;
+    text-align: center;
+    width: 90%;
+    order: 1;
+    font-size: 16vw;
+    top:0;
+    /* margin-top: 7%; */
+  }
+
+  .navbar{
+    margin-top: 0;
+    margin-bottom:0 ;
+
+    padding-top: 5%;
+    padding-bottom: 8%;  
+    background-color: #eadac0;
+    z-index: 2;
+    text-align: left;
+    width: 100%;
+    order: 3;
+    font-size: 7vw;
+    bottom:0;
+
+  }
+}

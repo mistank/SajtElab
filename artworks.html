@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link za jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- link za jquery plugin flickity -->
+
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <!-- js -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <link rel="stylesheet" href="css/main_style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/highlight.css" />
+    <link rel="stylesheet" href="css/artworks_style.css" />
+    <title>Artworks | Otto Dix</title>
+  </head>
+
+  <body>
+    <div id="grid-wrapper">
+      <!-- Navbar sa leve donje strane -->
+      <div class="navbar">
+        <a id="artworks" href="artworks.html">selected artworks/</a> <br />
+        <a id="biography" href="biography.html">biography/</a> <br />
+        <a id="contact" href="contact.html">contact</a>
+      </div>
+
+      <!-- Glavni grid sa slikama -->
+      <div id="image-grid">
+        <img src="images/img1.jpeg" alt="" />
+        <img src="images/img2.jpeg" alt="" />
+        <img src="images/img3.jpeg" alt="" />
+        <img src="images/img4.jpeg" alt="" />
+        <img src="images/img5.jpeg" alt="" />
+        <img src="images/img6.jpeg" alt="" />
+      </div>
+
+      <!-- slide show koji stoji u sredini -->
+      <div class="container-slides">
+        <!-- pojedinacne slike koje se pojavljuju u slide show-u -->
+        <div class="cell">
+          <img src="images/img1.jpeg" alt="" />
+        </div>
+
+        <div class="cell">
+          <img src="images/img2.jpeg" alt="" />
+        </div>
+
+        <div class="cell">
+          <img src="images/img3.jpeg" alt="" />
+        </div>
+
+        <div class="cell">
+          <img src="images/img4.jpeg" alt="" />
+        </div>
+        <div class="cell">
+          <img src="images/img5.jpeg" alt="" />
+        </div>
+        <div class="cell">
+          <img src="images/img6.jpeg" alt="" />
+        </div>
+      </div>
+
+      <!-- Naslov, tj ime sa gornje desne strane -->
+      <a id="naslov" href="index.html">OTTO DIX</a>
+    </div>
+
+    <!-- Skripta sa slideshowom  -->
+    <script src="scripts/slide_show.js"></script>
+  </body>
+</html>

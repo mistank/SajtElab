@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: octobre;
+    src: url(fonts/Octobre-Regular.otf);
+}
+
+@font-face {
+    font-family: octobre_thin;
+    src: url(fonts/Octobre-Thin.otf);
+}
+
+@font-face {
+    font-family: octobre_demi;
+    src: url(fonts/Octobre-DemiBold.otf);
+}
+
+@font-face {
+    font-family: neue_montreal;
+    src: url(fonts/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+    font-family: avara;
+    src: url(fonts/Avara.otf);
+}
+

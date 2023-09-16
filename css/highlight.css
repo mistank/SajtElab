@@ -1,0 +1,17 @@
+/* Podvuce kad je mis iznad */
+
+#artworks:hover {
+  text-decoration: underline;
+}
+
+#biography:hover {
+  text-decoration: underline;
+}
+
+#contact:hover {
+  text-decoration: underline;
+}
+
+#naslov:hover {
+  text-decoration: underline;
+}

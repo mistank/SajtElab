@@ -1,0 +1,22 @@
+.bio {
+  font-family: neue_montreal;
+  font-size: 1.2vw;
+  padding-left: 30%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 38%;
+}
+
+@media screen and (max-width: 480px){
+  .bio {
+    text-align: justify;
+    font-size: 5vw;
+
+    margin-right: 25%;
+    padding-top: 25%;
+    padding-bottom: 30%;
+    width: 80%;
+  }
+  
+}
